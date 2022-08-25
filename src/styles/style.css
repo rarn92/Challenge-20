@@ -1,0 +1,124 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+/* Universal Selector */
+* {
+  margin:0;
+  padding:0;  
+}
+
+/* Element Selectors */
+body {
+  position: relative;
+    font-family: 'Press Start 2P', cursive;
+  /* font-size: 20px; */
+  background-color: black;
+  color: rgb(234, 238, 255);
+}
+
+h1,
+h2 {
+  margin: 20px;
+}
+
+main {
+  padding: 60px 0;
+  justify-content: center;
+}
+
+main div {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+}
+
+li {
+  display: inline;
+  padding: 0px 20px;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+header,
+footer {
+  height: 60px;
+  width: 100%;
+  line-height: 60px;
+  background-color: rgb(121, 233, 253);
+}
+
+header {
+  position: fixed;
+  border-bottom: 10px solid rgb(121, 233, 253);
+}
+
+footer {
+  position: absolute;
+  margin-top: 0;
+  bottom: 0;
+  color: black;
+  position: fixed;
+  bottom: 0;
+}
+
+figure {
+  margin-bottom: 40px;
+}
+
+img {
+  display: block;
+  margin: 20px auto;
+}
+
+section {
+  margin-bottom: 0;
+  padding: 20px 10px 40px 10px;
+  border-top: 3px solid rgb(121, 233, 253);
+  background-color:  878d96;
+}
+
+form {
+  margin: 0 auto;
+  width: 500px;
+  padding: 10px;
+  border: 5px solid rgb(121, 233, 253);
+  border-radius: 20px;
+}
+
+label {
+  display: inline-block;
+  width: 100px;
+}
+  
+input, 
+textarea {
+  box-sizing: border-box;
+  width: 300px;
+  border: 1px solid rgb(121, 233, 253);
+}
+
+textarea {
+  vertical-align: top;
+  height: 60px;
+}
+  
+button {
+  height: 40px;
+  width: 120px;
+  background-color: rgb(121, 233, 253);
+  color: #FDF8F5;
+}
+ 
+/* Class Selectors */
+.text-center {
+  text-align: center;
+}
+
+.text-right {
+  text-align: right;
+}
