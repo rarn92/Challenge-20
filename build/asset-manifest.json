@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.css": "/static/css/main.2d0c22eb.css",
+    "main.js": "/static/js/main.b8ce9f36.js",
+    "static/media/robo2png.png": "/static/media/robo2png.e854e92c7db900256408.png",
+    "static/media/robo3png.png": "/static/media/robo3png.11dbd54bf111aeff7658.png",
+    "static/media/robo1png.png": "/static/media/robo1png.bc7192ce170ed9566e32.png",
+    "static/media/Weather Dashboard.png": "/static/media/Weather Dashboard.941901b4876673cb02ce.png",
+    "static/media/Workday Scheduler.png": "/static/media/Workday Scheduler.555863d83610d6cafb5a.png",
+    "index.html": "/index.html",
+    "main.2d0c22eb.css.map": "/static/css/main.2d0c22eb.css.map",
+    "main.b8ce9f36.js.map": "/static/js/main.b8ce9f36.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.2d0c22eb.css",
+    "static/js/main.b8ce9f36.js"
+  ]
+}
